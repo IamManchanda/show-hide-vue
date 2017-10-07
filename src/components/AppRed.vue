@@ -1,6 +1,6 @@
 <template>
   <div class="alert callout">
-    I am Red Template!
+    I am Red Callout!
   </div>
 </template>
 

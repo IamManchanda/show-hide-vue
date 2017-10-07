@@ -1,6 +1,6 @@
 <template>
   <div class="success callout">
-    I am Green Template!
+    I am Green Callout!
   </div>
 </template>
 

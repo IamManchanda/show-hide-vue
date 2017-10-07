@@ -2,13 +2,12 @@
   <div class="grid-container">
     <div class="grid-x grid-margin-x grid-padding-y">
       <div class="cell margin-top-2">
-        <button class="button small margin-right-1 alert"
-                @click="selectedComponent = 'AppRed'">Load Red Template</button>
-        <button class="button small margin-right-1 success"
-                @click="selectedComponent = 'AppGreen'">Load Green Template</button>
-        <button class="button small margin-right-1 primary"
-                @click="selectedComponent = 'AppBlue'">Load Blue Template</button>
-        <div><br /></div>
+        <button class="button small alert"
+                @click="selectedComponent = 'AppRed'">Show Red Callout</button>
+        <button class="button small success"
+                @click="selectedComponent = 'AppGreen'">Show Green Callout</button>
+        <button class="button small primary"
+                @click="selectedComponent = 'AppBlue'">Show Blue Callout</button>
         <keep-alive>
           <component :is="selectedComponent"></component>
         </keep-alive>
